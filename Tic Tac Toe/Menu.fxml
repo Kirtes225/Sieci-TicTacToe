@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: cornflowerblue;" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Button fx:id="singleplayer" layoutX="35.0" layoutY="106.0" mnemonicParsing="false" onAction="#singleplayerButton" prefHeight="47.0" prefWidth="151.0" text="Singleplayer">
+         <font>
+            <Font name="Bookman Old Style" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="220.0" layoutY="106.0" mnemonicParsing="false" onAction="#multiplayerButton" prefHeight="47.0" prefWidth="151.0" text="Multiplayer">
+         <font>
+            <Font name="Bookman Old Style" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="statistics" layoutX="104.0" layoutY="232.0" mnemonicParsing="false" onAction="#statisticsButton" prefHeight="57.0" prefWidth="192.0" text="Statistics">
+         <font>
+            <Font name="Bookman Old Style" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
